@@ -1,30 +1,32 @@
-# Portal de Notícias
+# Portal de Notícias TechNews 
 
-Este é um projeto de um portal de notícias focado em tecnologia, desenvolvido com HTML e CSS.
+Bem-vindo ao meu projeto de estudos de um portal de notícias de tecnologia! Esta é uma iniciativa para aplicar e aprofundar meus conhecimentos em desenvolvimento front-end, marcando meu primeiro contato prático com HTML e CSS na construção de uma interface web do zero.
 
-## Estrutura do Projeto
+O foco foi criar uma página visualmente agradável, bem estruturada e que utilizasse recursos modernos do CSS para explorar as capacidades da tecnologia.
 
-O projeto está estruturado da seguinte forma:
+## 🚀 Tecnologias e Aprendizados
 
-- `index.html`: A página principal que contém a estrutura do portal de notícias.
-- `styles/`: Uma pasta que contém os arquivos CSS.
-  - `global.css`: Contém estilos globais, como variáveis de cores e fontes.
-  - `header.css`: Estilos para a seção do cabeçalho.
-  - `index.css`: Folha de estilo principal que importa todos os outros arquivos CSS.
-  - `sections.css`: Estilos para as diferentes seções da página principal.
-  - `utility.css`: Contém classes de utilitários para layout e tipografia.
-- `assets/`: Uma pasta que contém todos os ativos, como imagens e ícones.
+Este projeto foi uma grande jornada de aprendizado. As seguintes tecnologias e conceitos foram aplicados:
 
-## Funcionalidades
+-   **HTML5 Semântico**: A estrutura da página foi construída utilizando tags semânticas (`<header>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<aside>`), visando melhor acessibilidade, SEO e clareza do código.
 
-- Layout responsivo usando CSS Grid.
-- Seção de artigos em destaque.
-- Seção "Mais lidas da semana".
-- Seção "Destaques de IA".
-- Seção "Viu isso aqui?".
-- Seção de anúncios.
+-   **CSS Moderno**: Em vez de apenas o básico, busquei explorar funcionalidades avançadas e boas práticas de CSS:
+    -   **Arquitetura Modular**: Os estilos foram divididos em arquivos (`global.css`, `header.css`, `sections.css`, `utility.css`) e unificados com a regra `@import`, facilitando a manutenção.
+    -   **Variáveis CSS (Custom Properties)**: Foram usadas para definir um padrão de cores e tipografia, funcionando como um pequeno *design system* que permite alterações globais de forma rápida.
+    -   **CSS Grid Layout**: O layout principal da página, incluindo o posicionamento das seções, foi feito com Grid, utilizando `grid-template-areas` para uma organização clara e poderosa.
+    -   **Classes Utilitárias**: Criei classes de utilidade (ex: `.grid`, `.gap-16`, `.text-lg`) para agilizar a aplicação de estilos comuns, um conceito inspirado em frameworks *utility-first*.
+    -   **Recursos de Ponta**: Como parte do aprendizado, explorei recursos recém-lançados e experimentais, como o **CSS Nesting** (aninhamento de seletores, que simplifica a escrita do CSS) e a pseudo-classe **`:has()`**, que permite selecionar elementos de forma mais inteligente e condicional.
 
-## Como Visualizar
+## 📂 Estrutura do Projeto
 
-Para visualizar o projeto, basta abrir o arquivo `index.html` em seu navegador de preferência.
+O projeto está organizado da seguinte forma:
 
+-   `index.html`: A página principal que contém toda a estrutura do portal.
+-   `styles/`: Pasta com todos os arquivos de estilização.
+-   `assets/`: Pasta que armazena as imagens, ícones e logo.
+
+## 🖥️ Como Visualizar
+
+Para visualizar o projeto, basta clonar este repositório e abrir o arquivo `index.html` em seu navegador de preferência.
+
+**Observação**: Este projeto utiliza recursos CSS modernos que podem não ser compatíveis com navegadores muito antigos. Recomenda-se o uso de um navegador atualizado (Chrome, Firefox, Edge, etc.).
